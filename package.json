@@ -1,0 +1,43 @@
+{
+	"name": "rest-api",
+	"version": "1.0.0",
+	"description": "teste de emprego",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/iago209/re.git"
+	},
+	"keywords": [
+		"node",
+		"teste",
+		"emprego",
+		"IAGO",
+		"HENRIQUE"
+	],
+	"author": "iago henrique",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/iago209/re/issues"
+	},
+	"homepage": "https://github.com/iago209/re#readme",
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"body-parser": "^1.19.0",
+		"core-util-is": "^1.0.2",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"knex": "^0.21.2",
+		"morgan": "^1.10.0",
+		"mysql": "^2.18.1",
+		"mysql2": "^2.1.0",
+		"pg": "^8.3.0",
+		"sqlite3": "^5.0.0",
+		"yarn": "^1.22.4"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
